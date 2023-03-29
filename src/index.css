@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+}
+
+.product_card {
+    display: flex;
+    gap: 12px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    width: 100%;
+    max-width: 500px;
+    height: 200px;
+}
+
+.product_card img {
+    height: 100%;
+    width: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.pc_content h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.pc_content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product_card>button {
+    margin-top: auto;
+}
